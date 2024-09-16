@@ -20,4 +20,4 @@ app.include_router(
 
 @app.get("/")
 async def root():
-    return {"message": "Welcome to the API service"}
+    return {"message": "Service is running!"}
