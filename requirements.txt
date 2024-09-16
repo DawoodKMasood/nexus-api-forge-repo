@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pydantic-settings
+alembic
+pytest
+requests
+python-dotenv
+transformers
+torch
