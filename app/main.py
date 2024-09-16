@@ -21,3 +21,7 @@ app.include_router(
 @app.get("/")
 async def root():
     return {"message": "Service is running!"}
+
+@app.get("/ping")
+async def ping():
+    return {"status": "ok"}
