@@ -10,3 +10,6 @@ class SentimentLabel(BaseModel):
 
 class RoBERTaSentimentResponse(BaseModel):
     sentiments: List[SentimentLabel]
+
+class MultilingualSentimentResponse(BaseModel):
+    sentiments: List[SentimentLabel]
